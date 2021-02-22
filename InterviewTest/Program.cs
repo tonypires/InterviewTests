@@ -15,6 +15,8 @@ namespace InterviewTest
 
             // Test 3
             //PerformanceTest.Run();
+            
+            // Test 4:  Navigate into RefactorTest.cs to see the instructions (this test isn't runnable)
 
             Console.Read();
         }
