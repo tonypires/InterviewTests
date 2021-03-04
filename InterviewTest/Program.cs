@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterviewTest.CSharp;
+using System;
 using System.Collections.Generic;
 
 namespace InterviewTest
@@ -11,12 +12,12 @@ namespace InterviewTest
             FizzBuzz.Run();
 
             // Test 2
-            //UniqueNames.Run();
-
-            // Test 3
             //PerformanceTest.Run();
-            
-            // Test 4:  Navigate into RefactorTest.cs to see the instructions (this test isn't runnable)
+
+            // Test 3:  Navigate into RefactorTest.cs to see the instructions (this test isn't runnable)
+
+            // Test 4
+            //CodeSmell.Run();
 
             Console.Read();
         }
