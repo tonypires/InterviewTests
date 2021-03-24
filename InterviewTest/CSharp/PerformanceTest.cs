@@ -16,7 +16,7 @@ namespace InterviewTest
         {
             // Populate both lists with the same set of integers
             var listA = new List<int>();
-            for (int i = 0; i < 100000; i++)
+            for (int i = 0; i < 100000; i++) //100000
             {
                 listA.Add(i);
             }
@@ -43,13 +43,17 @@ namespace InterviewTest
         {
             var matches = new List<int>();
 
-            for (int i = 0; i < listA.Count; i++)
+            var prevMatch = 0;
+            
+            for (int i = 0; i < listA.Count; i++) 
             {
-                for (int x = 0; x < listB.Count; x++)
+                for (int x = prevMatch; x < listB.Count; x++)
+                //for (int x = 0; x < listB.Count; x++)
                 {
-                    if (i == x)
+                    if (listA[i] == listB[x])
                     {
                         matches.Add(i);
+                        prevMatch = x;
                         break;
                     }
                 }

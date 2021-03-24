@@ -9,10 +9,10 @@ namespace InterviewTest
         static void Main(string[] args)
         {
             // Test 1
-            FizzBuzz.Run();
+            //FizzBuzz.Run();
 
             // Test 2
-            //PerformanceTest.Run();
+            PerformanceTest.Run();
 
             // Test 3:  Navigate into RefactorTest.cs to see the instructions (this test isn't runnable)
 
